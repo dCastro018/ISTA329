@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #fff6f1;
+    color: #333;
+  }
+  
+  header {
+    background: #fce8da;
+    width: 100%;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .logo img {
+    height: 70px;
+    display: block;
+  }
+  
+  nav {
+    display: flex;
+    gap: 35px;
+  }
+  
+  nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Georgia', serif;
+    padding: 5px 10px;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid black;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-info img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .contact-info div {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info p, 
+  .contact-info ul {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .address {
+    background-color: #ffe9dd;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  .address h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .address p {
+    font-size: 1.1rem;
+  }
+  
+  .address iframe {
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .faqs h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .faqs details {
+    background-color: #ffe9dd;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .faqs summary {
+    font-weight: bold;
+    font-size: 1rem;
+    list-style: none;
+  }
+  
+  .faqs details[open] {
+    background-color: #ffd6c4;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info,
+    .address {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-info img,
+    .address iframe {
+      width: 100%;
+    }
+  }
+  
