@@ -18,23 +18,19 @@ main {
 
 /* ---------- Header ---------- */
 header {
-  background: #ffffff;
+  background: #fce8da;
   width: 100%;
-  padding: 10px 40px;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
+  padding: 10px 0;
 }
 
 .logo img {
-  height: 60px;
-  width: auto;
+  height: 70px;
   display: block;
 }
 
@@ -78,6 +74,7 @@ nav a.active {
   margin: 30px auto;
   border-radius: 10px;
   width: 100%;
+  max-width: 800px; /* Adjust max-width for centering */
 }
 
 .form-section h2 {
@@ -134,34 +131,37 @@ button:hover {
 
 /* ---------- Footer ---------- */
 footer {
-  background-color: #ffffff;
+  background-color: #fce8da;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  padding: 25px 40px;
+  padding: 25px 0;
   font-size: 13px;
   font-family: 'Georgia', serif;
   width: 100%;
   margin-top: 40px;
-  flex-wrap: wrap;
-  gap: 20px;
-  border-top: 1px solid #ccc;
 }
 
 .footer-info,
-.socials,
-.hours {
+.footer-social,
+.footer-hours {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.socials span {
+.footer-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-social span {
   font-size: 18px;
   width: 24px;
   height: 24px;
-  display: inline-block;
   text-align: center;
+  display: inline-block;
 }
 
 /* ---------- Responsive ---------- */
