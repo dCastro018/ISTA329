@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Georgia', serif;
-  background-color: #fffaf7;
+  background-color: #fdfdfd;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@ body {
 .main-container {
   width: 100%;
   max-width: 1100px;
-  padding: 0 40px;
+  padding: 40px 40px;
   box-sizing: border-box;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 .logo img {
-  height: 70px;
+  height: 100px;
   display: block;
 }
 
@@ -52,8 +52,8 @@ nav a.active {
 
 /* ---------- About Section ---------- */
 .about-section {
-  background-color: #fce9df;
-  padding: 60px 0;
+  background-color: #fff3ed;
+  padding: 60px 60px;
 }
 
 .about-wrapper {
@@ -211,7 +211,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 25px 0;
+  padding: 25px 25px;
   font-size: 13px;
   font-family: 'Georgia', serif;
   width: 100%;
