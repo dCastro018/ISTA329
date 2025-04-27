@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #fff6f1;
+    color: #333;
+  }
+  
+  header {
+    background: #fce8da;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid #aa4a30;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .menu-hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .menu-hero h1 {
+    font-size: 3rem;
+    color: #aa4a30;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-hero p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .menu-section h2 {
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem;
+    text-align: center;
+    color: #aa4a30;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .menu-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .menu-card h3 {
+    font-size: 1.4rem;
+    color: #aa4a30;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .menu-card p {
+    padding: 0 1rem 1rem;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .simple-list {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .simple-list p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    background: #fff;
+    border-top: 1px solid #ccc;
+  }
+  
